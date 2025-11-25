@@ -1,8 +1,8 @@
 import RecentPlays from '@/components/Home/RecentPlays';
-import { FlatList, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-export default function Index() {
+export default function index() {
   return (
     <SafeAreaView>
       <Text style={styles.title}>Recent Plays</Text>
